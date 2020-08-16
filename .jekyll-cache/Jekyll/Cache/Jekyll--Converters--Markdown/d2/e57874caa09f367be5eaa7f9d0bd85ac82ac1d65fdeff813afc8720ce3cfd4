@@ -1,4 +1,4 @@
-I"g<p>On this page I will show you how to create an Ubuntu virtual machine using VirtualBox.</p>
+I"N<p>On this page I will show you how to create an Ubuntu virtual machine using VirtualBox.</p>
 
 <h2 id="what-is-virtualbox">What is VirtualBox?</h2>
 <p>VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License (GPL) version 2.</p>
@@ -15,23 +15,23 @@
 
 <h2 id="create-new-virtual-machine">Create new virtual machine</h2>
 
-<p><img src="/blog/assets/img/virtualbox/create-vm1.gif" width="1200" /></p>
+<p><img src="/assets/img/virtualbox/create-vm1.gif" width="1200" /></p>
 
 <h2 id="choose-the-ubuntu-image-for-the-vm1-instance">Choose the Ubuntu image for the VM1 instance.</h2>
-<p><img src="/blog/assets/img/virtualbox/create-vm2.gif" width="1200" /></p>
+<p><img src="/assets/img/virtualbox/create-vm2.gif" width="1200" /></p>
 
 <h2 id="choose-network">Choose network</h2>
 <p>For quick setup you can use the bridge network, there will be a new post for advance networking setting for cluster mode.
-<img src="/blog/assets/img/virtualbox/create-vm3.gif" width="1200" /></p>
+<img src="/assets/img/virtualbox/create-vm3.gif" width="1200" /></p>
 
 <h2 id="install-ubuntu-to-vm">Install Ubuntu to VM</h2>
 <p>To start the virtual machine click “Show and then install Ubuntu. 
-<img src="/blog/assets/img/virtualbox/create-vm4.gif" width="1200" /></p>
+<img src="/assets/img/virtualbox/create-vm4.gif" width="1200" /></p>
 
 <h2 id="assign-static-ip-if-vm1-didnt-get-an-ip">Assign static IP if VM1 didn’t get an IP.</h2>
 <p>In my case the DHCP of my router failed to provide an IP for the VM1, if your VM1 got IP you can skip this step.
 To find what is the default gateway in yout host you can do ipconfig, in my case it is 10.0.0.138, probably in your case it is different.
-<img src="/blog/assets/img/virtualbox/create-vm5.gif" width="1200" /></p>
+<img src="/assets/img/virtualbox/create-vm5.gif" width="1200" /></p>
 
 <h2 id="congratulations">Congratulations!</h2>
 <p>Now you have created a Virtual Machine, to connect over ssh read this page.</p>
