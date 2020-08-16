@@ -1,0 +1,35 @@
+title: Hello! I'm Dimitris P.
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Dimitris P.
+author-img: Dimitris-Pyr.jpg
+about-author: Computer Engineer and technology enthusiast. Here you can find some interesting tutorials and pages to grow your hard and soft skills. 
+social-github: sdwerwed # add your Github handle
+social-linkedin: dimitris-p-21b8b3aa
+social-email: 
+
+# Disqus
+discus-identifier: dimitrispyr # add your discus identifier
+
+# Tracker
+analytics: UA-175554850-1 
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
